@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * main print chat 
- * always: return 0
+ * main - print putchar 
+ * Return : Always 0
  */
 int main(void)
 {
