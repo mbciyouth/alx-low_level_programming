@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * main - main block 
- * Description : A program that print _putchar
- * Return : 0 success 
+ * main-main block
+ * desription:A program that print _putchar
+ * Return:0
  */
 int main(void)
 {
@@ -16,7 +16,6 @@ int main(void)
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
-
-	       return (0);
+	return (0);
 
 }
