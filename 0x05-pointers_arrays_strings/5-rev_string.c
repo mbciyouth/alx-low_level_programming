@@ -22,8 +22,6 @@ void rev_string(char *s)
 	{
 		a++;
 	}
-
-
 	for (i = 0; i < (c / 2); i++)
 	{
 		aux = s[i];
