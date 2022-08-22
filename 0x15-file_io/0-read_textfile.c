@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- *  read_textfile - ...
- *  @filename: The source file
- *  @letters: Number of letters to reads and prints
+ * read_textfile - ...
+ * @filename: The source file
+ * @letters: Number of letters to reads and prints
  *
- *  Return: ...
+ * Return: ...
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
@@ -13,7 +13,6 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	char *buff = malloc(sizeof(char *) * letters);
 
 	if (!buff)
-	
 		return (0);
 
 	if (!filename)
@@ -27,6 +26,6 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	write(STDOUT_FILENO, buff, readed);
 
 	free(buff);
-	free(buff);
+	close(fd);
 	return (readed);
 }
