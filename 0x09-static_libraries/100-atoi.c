@@ -1,11 +1,12 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
- * _atoi - convert a string to an integer
+ * _atoi - convert a string to an integer.
  * @s: the string to be comverted.
  *
  * Return: The integer value of the comverted string.
  */
+
 int _atoi(char *s)
 {
 	int sign = 1;
@@ -21,6 +22,6 @@ int _atoi(char *s)
 		else if (num > 0)
 			break;
 	} while (*s++);
+
 	return (num * sign);
 }
-
